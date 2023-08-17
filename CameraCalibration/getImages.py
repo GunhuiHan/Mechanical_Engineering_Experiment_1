@@ -2,7 +2,7 @@ import cv2
 
 CAMERA_WIDTH = 1280 # 1920 1280 640
 CAMERA_HEIGHT = 720 # 1080 720 360
-cap = cv2.VideoCapture(2)
+cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, CAMERA_WIDTH)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, CAMERA_HEIGHT)
 
